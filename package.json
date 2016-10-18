@@ -1,0 +1,48 @@
+{
+  "name": "webpack-avalon2-seed",
+  "version": "1.0.0",
+  "description": "webpack-avalon2 脚手架 兼容 IE8",
+  "main": "index.js",
+  "config": {
+    "buildDir": "./dist",
+    "devHost": "localhost",
+    "devPort": 3000
+  },
+  "scripts": {
+    "dev": "node dev-server ./dev.config",
+    "build": "webpack --config ./pro.config",
+    "bie": "webpack ---watch --config ./pro.config ",
+    "bug": "webpack-dev-server --config ./dev.config --hot --inline --devtool eval --progress --colors --content-base dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PackageBox/webpack-avalon2-seed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PackageBox/webpack-avalon2-seed/issues"
+  },
+  "homepage": "https://github.com/PackageBox/webpack-avalon2-seed#readme",
+  "devDependencies": {
+    "avalon-promise": "^0.4.0",
+    "avalon2": "^2.1.5",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "fetch-polyfill2": "0.0.2",
+    "file-loader": "^0.9.0",
+    "glob": "^7.0.5",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
+    "jquery": "^3.1.1",
+    "mmDux": "^1.0.0",
+    "node-sass": "^3.8.0",
+    "opn": "^4.0.2",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.14.0"
+  }
+}

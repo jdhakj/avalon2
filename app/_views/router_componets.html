@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .ms-controller{
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+<div ms-controller="demo" class="ms-controller">
+    <p><a href='#!/a'>点我--->加载组件1</a></p>
+    <p><a href='#!/b'>点我--->加载组件2</a></p>
+    <p style="color: red;">{{@currPath}}</p>
+    <div id="main" ms-html="@html"></div>
+</div>
+</body>
+</html>
